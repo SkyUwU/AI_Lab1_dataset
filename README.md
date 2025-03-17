@@ -17,4 +17,12 @@
 1. 利用selenium函式庫，到Google圖片搜尋需要的關鍵詞
 2. 模擬滾輪操作並將各張圖片的src的url經過篩選後存到設定的list中
 3. 利用requests函式庫，到list中的各張圖片的url下載圖片
-4. 等到下載三類圖片都結束後，手動將大小過小或是明顯不符合該分類的圖   片刪除
+4. 等到下載三類圖片都結束後，手動將大小過小或是明顯不符合該分類的圖片刪除
+### 資料範例
+以下是三類照片的範例，手動篩選標準主要是臉的部分不能太小，然後盡量是正臉且沒有太多其他無關的資訊。
+- 亞洲人  
+  <img src="https://media.licdn.com/dms/image/v2/C4D03AQFvSQfWJqXisw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1656120359929?e=2147483647&v=beta&t=YAUYrDBu_jMijx1vGvyno6bJYO5ZpARwlJzBZW15U4s" width="150">  
+- 非洲人  
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT4pVGwC_-gr6ZBZ3qoDLz28-qREpr-uSQEkGiiwzezSih_JS2c" width="170">  
+- 歐美人  
+  <img src="https://i1.kknews.cc/ouX896xHpEazZekk6lO3yGSK3fGkTmupjkSUHAg/0.jpg" width="170">  
